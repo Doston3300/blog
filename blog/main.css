@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: rgba(35, 37, 54, 1);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__title {
+    padding-top: 10px;
+    color: white;
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+    padding-left: 30em;
+}
+
+.item__link-a {
+    padding-top: 50px;
+    text-decoration: none;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+}
+
+.item__home {
+    padding-top: 20px;
+    list-style: none;
+}
+
+.item__blog {
+    padding-top: 20px;
+    list-style: none;
+}
+
+.item__about {
+    padding-top: 20px;
+    list-style: none;
+}
+
+.item__register {
+    padding-top: 20px;
+    list-style: none;
+}
+
+.menu__btn {
+    width: 147px;
+    height: 56px;
+    background-color: white;
+    color: black;
+}
+
+.menu__btn-a {
+    text-decoration: none;
+}
+
+.main {
+    max-width: auto;
+    height: 720px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png);
+}
+
+.main__text-a {
+    padding-top: 128px;
+    color: white;
+    font-size: 20px;
+    width: auto;
+}
+
+.main__title {
+    padding-top: 25px;
+    color: white;
+    font-size: 30px;
+}
+
+.main__text-date {
+    padding-top: 25px;
+    font-size: 20px;
+    color: white;
+}
+
+.main__text-foot {
+    padding-top: 16px;
+    color: white;
+    font-size: 20px;
+}
+
+.main__btn {
+    width: 204px;
+    height: 56px;
+    margin-top: 48px;
+    background-color: rgba(255, 208, 80, 1);
+    color: black;
+    border: none;
+}
+
+.blok__title {
+    padding-top: 95px;
+}
+
+.blok__text {
+    display: flex;
+}
+
+.img-woman {
+    padding-top: 65px;
+    width: 80%;
+}
+
+.blok__date {
+    padding-top: 32px;
+}
+
+.blok__text-1 {
+    padding-top: 16px;
+    font-size: 28px;
+}
+
+.blok__text-2 {
+    padding-top: 16px;
+}
+
+.hr {
+    /* max-width: 1000px; */
+    margin: 65px 20px;
+    background-color: rgb(99, 99, 109);
+    text-align: center;
+    color: blue;
+}
+
+.choose__title {
+    text-align: center;
+    font-size: 36px;
+    padding-top: 65px;
+}
+
+.category {
+    display: flex;
+    gap: 32px;
+}
+
+.flex {
+    display: block;
+}
+
+.business {
+    margin-top: 70px;
+    width: 200px;
+    /* height: 222px; */
+    border: 1px solid grey;
+}
+
+.category__img {
+    margin: 44px 44px;
+}
+
+.big {
+    width: 48px;
+    height: 46px;
+    margin: 45px 32px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.category__business {
+    padding: 0px 32px;
+    font-size: 28px;
+    font-weight: 700px;
+}
+
+.category__text {
+    padding: 3px 32px;
+}
+
+.startup {
+    margin-top: 70px;
+    width: 200px;
+    border: 1px solid grey;
+}
+
+
+/* .startup__img {
+    margin: 44px 44px;
+}
+
+.startup__text {
+    padding: 3px 32px;
+}
+
+.startup__business {
+    padding: 0px 32px;
+    font-size: 28px;
+    font-weight: 700px;
+} */
+
+.startup>.category__business {
+    padding-top: 25px;
+}
+
+.economy {
+    margin-top: 70px;
+    width: 200px;
+    border: 1px solid grey;
+}
+
+.technology {
+    margin-top: 70px;
+    width: 200px;
+    border: 1px solid grey;
+}
+
+.footer {
+    margin: 0 auto;
+    /* width: 1200px; */
+    height: 165px;
+    margin-top: 73px;
+    background-color: #232536;
+}
+
+.town {
+    padding: 55px 80px;
+    color: white;
+}
+
+.nomer {
+    padding: 0px 80px;
+    color: white;
+}
+
+@media(max-width:795px) {
+    .item {
+        padding-left: 50px;
+    }
+    .item__link-a {
+        font-size: 10px;
+        text-decoration: none;
+        list-style: none;
+    }
+    .main__text {
+        padding-left: 20px;
+    }
+    .blok__text-1 {
+        max-width: 250px;
+        font-size: 16px;
+    }
+    .big {
+        /* margin-top: 50px; */
+    }
+    .blok__text-2 {
+        max-width: 150px;
+        font-size: 10px;
+    }
+    .category {
+        max-width: 150px;
+    }
+    .business {
+        max-width: 150px;
+    }
+    .startup {
+        max-width: 150px;
+    }
+    .startup__img {
+        padding-top: 30px;
+    }
+    .business {
+        max-width: 150px;
+    }
+    .category__business {
+        font-size: 20px;
+    }
+    .category {
+        margin-left: 20px;
+        max-width: auto;
+    }
+    .economy {
+        display: block;
+    }
+    .technology {
+        display: block;
+        display: none;
+    }
+}
+
+@media (max-width:375px) {
+    .menu {
+        max-width: 370px;
+        overflow-x: hidden;
+        margin-left: 40px;
+    }
+    .item {
+        display: none;
+        position: relative;
+    }
+    /* .main__text-a {
+        padding-left: 20px;
+    } */
+    .menu__btn {
+        position: absolute;
+        right: 0;
+        max-width: 100px;
+        height: 50px;
+        margin-left: 50px;
+    }
+    .main__btn {
+        margin-left: 20px;
+    }
+    /* .main__text-a {
+        padding-left: 10px;
+    } */
+    .main__title {
+        max-width: 375px;
+        padding-left: 10px;
+    }
+    .main__text-date {
+        padding-left: 10px;
+    }
+    .main__text-foot {
+        max-width: 375px;
+        padding-left: 10px;
+    }
+    .blog {
+        margin-left: 30px;
+    }
+    .main {}
+    .blok__title {
+        padding-left: 50px;
+        font-size: 20px;
+    }
+    .blok__text {
+        display: block;
+        max-width: 100%;
+    }
+    .img-woman {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .choose__title {
+        text-align: left;
+        font-size: 25px;
+    }
+    .category {
+        display: block;
+        margin-left: 40px;
+    }
+    .economy {
+        max-width: auto;
+    }
+    .footer {
+        max-width: 375px;
+        /* margin-left: 40px; */
+    }
+    .hr {
+        max-width: 375px;
+    }
+    .choose__title {
+        padding-left: 20px;
+    }
+}

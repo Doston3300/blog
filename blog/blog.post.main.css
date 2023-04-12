@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: rgba(35, 37, 54, 1);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__title {
+    padding-top: 10px;
+    color: white;
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+}
+
+.item__link-a {
+    padding-top: 50px;
+    text-decoration: none;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.item__home {
+    padding-top: 20px;
+}
+
+.item__blog {
+    padding-top: 20px;
+}
+
+.item__about {
+    padding-top: 20px;
+}
+
+.item__register {
+    padding-top: 20px;
+}
+
+.menu__btn {
+    width: 147px;
+    height: 56px;
+    background-color: white;
+    color: black;
+}
+
+.blog__btn {
+    text-decoration: none;
+}
+
+.woman__eyes {
+    width: 100%;
+    padding-top: 56px;
+}
+
+.post__main {
+    margin: 65px 296px;
+    display: flex;
+}
+
+.post__main-right {
+    padding: 10px 17px;
+}
+
+.post__main-text1 {
+    color: #592EA9;
+}
+
+.post__main-text2 {
+    color: #6D6E76;
+}
+
+.post__blog-text {
+    padding-left: 296px;
+}
+
+.blog__text-one {
+    color: black;
+    font-size: 48px;
+}
+
+.blog__text-two {
+    padding-top: 30px;
+    font-size: 25px;
+    color: #000;
+}
+
+.blog__text-three {
+    padding-top: 60px;
+    width: 837px;
+    font-size: 16px;
+}
+
+.blog__text-four {
+    padding-top: 25px;
+    width: 837px;
+    font-size: 16px;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 1140px;
+    height: 165px;
+    margin-top: 73px;
+    background-color: #232536;
+}
+
+.town {
+    padding: 55px 80px;
+    color: white;
+}
+
+.nomer {
+    padding: 0px 80px;
+    color: white;
+}

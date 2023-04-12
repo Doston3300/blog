@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: rgba(35, 37, 54, 1);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__title {
+    padding-top: 10px;
+    color: white;
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+}
+
+.item__link-a {
+    padding-top: 50px;
+    text-decoration: none;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.item__home {
+    padding-top: 20px;
+}
+
+.item__blog {
+    padding-top: 20px;
+}
+
+.item__about {
+    padding-top: 20px;
+}
+
+.item__register {
+    padding-top: 20px;
+}
+
+.menu__btn {
+    width: 147px;
+    height: 56px;
+    background-color: white;
+    color: black;
+}
+
+.login__btn {
+    text-decoration: none;
+}
+
+.register__title {
+    text-align: center;
+    font-size: 48px;
+}
+
+.input__name {
+    margin-top: 68px;
+    margin-left: 210px;
+    width: 700px;
+    height: 50px;
+    color: black;
+}
+
+.input__pasword {
+    margin-top: 16px;
+    margin-left: 210px;
+    width: 700px;
+    height: 50px;
+    color: black;
+}
+
+.btn {
+    margin-top: 75px;
+    margin-left: 210px;
+    width: 700px;
+    height: 50px;
+    background-color: #FFD050;
+    color: black;
+    font-weight: 32px;
+}
+
+.massage {
+    display: flex;
+    padding-left: 218px;
+    color: red;
+}

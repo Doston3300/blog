@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: rgba(35, 37, 54, 1);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__title {
+    padding-top: 10px;
+    color: white;
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+    padding-left: 20em;
+}
+
+.item__link-a {
+    padding-top: 50px;
+    text-decoration: none;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.item__home {
+    padding-top: 20px;
+}
+
+.item__blog {
+    padding-top: 20px;
+}
+
+.item__about {
+    padding-top: 20px;
+}
+
+.item__register {
+    padding-top: 20px;
+}
+
+.menu__btn {
+    width: 147px;
+    height: 56px;
+    background-color: white;
+    color: black;
+}
+
+.about__btn {
+    text-decoration: none;
+}
+
+.about__main {
+    display: flex;
+    width: 1150px;
+    height: 441px;
+    margin: 50px 10px;
+    background-color: #F4F0F8;
+}
+
+.about__left-text1 {
+    padding-top: 80px;
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+.about__left-txt2 {
+    padding-left: 50px;
+    padding-top: 25px;
+    font-size: 28px;
+}
+
+.about__left-text3 {
+    padding: 16px 50px;
+}
+
+.lorem__menu {
+    display: flex;
+    margin-top: 160px;
+}
+
+.lorem__left {
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+.lorem__text-one {
+    font-size: 36px;
+}
+
+.lorem__text-two {
+    padding-top: 16px;
+    font-size: 24px;
+}
+
+.lorem__text-three {
+    padding-top: 16px;
+    font-size: 16px;
+    color: #232536;
+}
+
+.lorem__right-img {
+    width: 100%;
+}
+
+.lorem__left-foot {
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.lorem__text1 {
+    font-size: 36px;
+}
+
+.lorem__text2 {
+    width: 511px;
+    height: 96px;
+    padding-top: 16px;
+    font-size: 24px;
+}
+
+.lorem__text3 {
+    padding-top: 16px;
+    font-size: 16px;
+    color: #232536;
+}
+
+.footer {
+    /* margin: 0 auto; */
+    /* width: 1140px; */
+    /* height: 165px; */
+    margin-top: 73px;
+    background-color: #232536;
+}
+
+.town {
+    padding: 55px 80px;
+    color: white;
+}
+
+.nomer {
+    padding: 0px 80px;
+    color: white;
+}
+
+@media(max-width:375px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+    .menu {
+        max-width: 375px;
+    }
+    .item {
+        display: none;
+    }
+    .about__menu {
+        max-width: 375px;
+    }
+    .about__main {
+        display: block;
+    }
+    .about__left-text1 {
+        font-size: 20px;
+        padding-top: -50px;
+    }
+    .about__left-text2 {
+        font-size: 16px;
+    }
+    .lorem__menu {
+        display: block;
+    }
+    .lorem__right-img {
+        width: 50%;
+        padding-left: 30px;
+    }
+    .lorem__left {
+        max-width: 100%;
+    }
+    .lorem__text-three {
+        max-width: 100%
+    }
+    .lorem__text3 {
+        max-width: 375px;
+    }
+}

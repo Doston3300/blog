@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__title {
+    padding-top: 10px;
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+    padding-left: 30em;
+}
+
+.item__link-a {
+    padding-top: 50px;
+    text-decoration: none;
+    gap: 20px;
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+}
+
+.item__home {
+    padding-top: 20px;
+}
+
+.item__blog {
+    padding-top: 20px;
+}
+
+.item__about {
+    padding-top: 20px;
+}
+
+.item__register {
+    padding-top: 20px;
+}
+
+.menu__btn {
+    width: 147px;
+    height: 50px;
+    background-color: white;
+    color: rgb(14, 14, 14);
+}
+
+.login__btn {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    max-width: 100%;
+    ;
+    height: 350px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F4F0F8;
+}
+
+.main__text-a {
+    padding-top: 80px;
+    text-align: center;
+    color: rgb(15, 14, 14);
+    font-size: 40px;
+}
+
+.main__title {
+    padding-top: 25px;
+    color: #6D6E76;
+    font-size: 16px;
+    text-align: center;
+}
+
+.main__text-foot {
+    padding-top: 32px;
+    color: rgb(24, 23, 23);
+    font-size: 20px;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    margin-top: 50px;
+    width: 70px;
+    height: 45px;
+    padding-left: 20px;
+    color: black;
+}
+
+.input {
+    width: 700px;
+    height: 35px;
+    color: black;
+    padding-left: 15px;
+}
+
+.btn-outline-secondary {
+    width: 100px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.bus__btn {
+    display: flex;
+}
+
+.bus__text {
+    margin-top: 50px;
+    display: flex;
+}
+
+.bus__textone {
+    padding-left: 48px;
+    color: #592EA9;
+}
+
+.bus__texttwo {
+    max-width: 780px;
+    padding: 20px 48px;
+    font-size: 35px;
+    color: #232536;
+}
+
+.bus__textthree {
+    padding: 64px 48px;
+    font-size: 16px;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 1140px;
+    height: 165px;
+    margin-top: 73px;
+    background-color: #232536;
+    margin-top: 200px;
+}
+
+.town {
+    padding: 55px 80px;
+    color: white;
+}
+
+.nomer {
+    padding: 0px 80px;
+    color: white;
+}
+
+@media(max-width:375px) {
+    body {
+        overflow-x: hidden;
+    }
+    .menu {
+        max-width: 375px;
+        overflow-x: hidden;
+    }
+    .item {
+        display: none;
+    }
+    .main__text {
+        max-width: 375px;
+    }
+    .main__title {
+        max-width: 300px;
+    }
+    .menu__btn {
+        max-width: 100px;
+        margin-right: 20px;
+        background-color: yellow;
+        color: black;
+    }
+    .menu__btn:hover {
+        background-color: blue;
+        color: white;
+    }
+    .input-group {
+        max-width: 100%;
+    }
+    .input {
+        max-width: 250px;
+    }
+    .btn-outline-secondary {
+        max-width: 50px;
+    }
+    .bus__text {
+        display: block;
+    }
+    .two__women {
+        max-width: 300px;
+        padding-left: 20px;
+    }
+    .bus__texttwo {
+        max-width: 375px;
+        font-size: 30px;
+    }
+    .bus__textthree {
+        max-width: 375px;
+        font-size: 16px;
+    }
+    .footer {
+        max-width: 100%;
+    }
+}
+
+@media(max-width:795px) {
+    body {
+        overflow-x: hidden;
+    }
+    .menu__title {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .item {
+        padding-left: 0;
+    }
+    .item__link-a {
+        font-size: 10px;
+        text-decoration: none;
+        list-style: none;
+    }
+    .main__text {
+        padding-left: 20px;
+    }
+    .input {
+        max-width: 200px;
+    }
+    .bus__text {
+        display: block;
+    }
+    .bus__texttwo {
+        font-size: 20px;
+    }
+    .bus__textthree {
+        font-size: 16px;
+    }
+    .two__women {
+        padding-left: 15px;
+    }
+    .menu__btn {
+        max-width: 80px;
+        max-height: 40px;
+        margin-top: 5px;
+        margin-right: 0px;
+    }
+    .footer {
+        max-width: 100%;
+    }
+}

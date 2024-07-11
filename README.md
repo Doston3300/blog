@@ -1,1 +1,1 @@
-Bu html css js tillari   qullanilgan 
+Bunda html css js   ishlatilgan
